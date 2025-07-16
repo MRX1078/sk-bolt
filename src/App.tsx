@@ -128,7 +128,7 @@ function App() {
     };
 
     try {
-      const response = await axios.post('https://45.151.30.224.sslip.io/analyze', apiData);
+      const response = await axios.post('https://45.151.30.224.sslip.io/api/analyze', apiData);
       setApiResponse(response.data);
       setIsSubmitting(false);
       setShowResults(true);
